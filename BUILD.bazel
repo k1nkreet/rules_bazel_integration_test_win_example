@@ -16,7 +16,7 @@ bazel_integration_test(
     name = "workspace_test",
     bazel_version = CURRENT_BAZEL_VERSION,
     test_runner = ":simple_test_runner",
-    workspace_path = "workspace",
+    workspace_path = "workspace_test",
 )
 
 
